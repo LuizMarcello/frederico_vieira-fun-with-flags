@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Next.js build output
+.next
+out
+build
+dist
+
+# Environment and Secrets (prevent build context leakage)
+.env
+.env*.local
+*.pem
+*.key
+
+# Git and IDE files
+.git
+.gitignore
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Caches and temporary files
+.npm
+.cache
+.turbo
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Documentation and agent configs
+README.md
+.agents
