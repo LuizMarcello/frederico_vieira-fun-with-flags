@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description: "Flags at the world",
 };
 
+// Function "Declaration" 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
